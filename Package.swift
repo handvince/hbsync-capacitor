@@ -1,13 +1,16 @@
 // swift-tools-version: 5.9
 
+// Nom « Hbsync » (et non « HbSync ») : c'est le nom que Capacitor déduit du paquet npm « hbsync »
+// quand il génère CapApp-SPM/Package.swift. Ainsi, aucun correctif n'est nécessaire dans les applis.
+
 import PackageDescription
 
 let package = Package(
-    name: "HbSync",
+    name: "Hbsync",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "HbSync",
+            name: "Hbsync",
             targets: ["HbSyncPlugin"])
     ],
     dependencies: [
