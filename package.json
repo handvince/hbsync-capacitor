@@ -1,0 +1,13 @@
+{
+  "name": "hbsync",
+  "version": "1.0.0",
+  "description": "Liaison iPad ↔ iPad (Taguage live ↔ Temps de jeu) : découverte Bonjour + TCP, Wi-Fi routeur ou direct (pair-à-pair), messages JSON",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "capacitor": {
+    "ios": { "src": "ios" }
+  },
+  "files": ["ios/Sources", "Package.swift", "index.js"],
+  "peerDependencies": { "@capacitor/core": ">=8.0.0" }
+}
